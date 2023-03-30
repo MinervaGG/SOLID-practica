@@ -14,7 +14,7 @@ public class FileConvertion {
             nameWithoutExtension = file.getName().substring(0, indexOfLastDot);
         }
         String newFileName = nameWithoutExtension + ".wav";
-        FileSystemItem result = new File(file.getParent(), newFileName);
+        File result = new File(file.getParent(), newFileName);
         result.open();
         // Lógica de conversión de mp3 a wav. Se lee de este fichero y se escribe en result
         result.close();
@@ -32,7 +32,7 @@ public class FileConvertion {
             nameWithoutExtension = file.getName().substring(0, indexOfLastDot);
         }
         String newFileName = nameWithoutExtension + ".mp3";
-        FileSystemItem result = new File(file.getParent(), newFileName);
+        File result = new File(file.getParent(), newFileName);
         result.open();
         // Lógica de conversión de wav a mp3. Se lee de este fichero y se escribe en result
         result.close();
