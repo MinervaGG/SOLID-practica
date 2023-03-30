@@ -1,8 +1,6 @@
 package com.kreitek.files;
 
-import com.kreitek.files.error.InvalidFileFormatException;
-
-import java.util.List;
+import com.kreitek.interfaces.FileInterface;
 
 public class File extends FileSystemItemBase implements FileInterface {
 

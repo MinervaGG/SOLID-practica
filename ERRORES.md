@@ -10,3 +10,6 @@ modo que cada clase tenga una funcionalidad única.
 ### Segregación de interfaces
 Se ha dividido la interfaz "FileSystemItem" en dos nuevas interfaces más pequeñas y específicas relacionadas con
 ficheros y directorios respectivamente.
+
+### Principio de inversión de dependencias
+Se ha abstraído las interfaces del resto de archivos haciendo uso de la carpeta "interfaces"
